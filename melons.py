@@ -36,3 +36,5 @@ melon_data = {
         "rind_color": "orange",
         "weight_in_lbs": "3"},
     }
+
+print(melon_data["Honeydew"]["price"])
