@@ -1,10 +1,10 @@
 """Print out all the melons in our inventory."""
 
 
-from melons import melon_names, melon_seedlessness, melon_prices, melon_flesh_color, melon_rind_color, melon_average_weight
+from melons import melon_data
 
 
-def print_melon(name, seedless, price, flesh_color, rind_color, average_weight):
+def print_melon(melon_data):
     """Print each melon with corresponding attribute information."""
 
     have_or_have_not = 'have'
